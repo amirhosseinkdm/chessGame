@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    background-color: #aaa;
+    padding: 10px;
+}
+.gridItem {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+#a1{
+    background-image: url(chess_pawn_icon_198475.png);
+}
